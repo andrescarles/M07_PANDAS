@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 #IMPORTAMOS EL ARCHIVO : SI QUIERES USAR UNA MUESTRA DE 2 PAISES ESTA EL ARCHIVO data2.csv
-df = pd.read_csv('data.csv')#data2.csv
+df = pd.read_csv('data2.csv')#data2.csv
 
 #EXTRAEMOS EL MES DE LA FECHA
 df['month'] = pd.DatetimeIndex(df['date']).month
